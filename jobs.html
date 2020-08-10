@@ -25,8 +25,42 @@
             </div>
         
         </div>
+<!-- form 'add job' div class to centre whole element. -->
+        
+
+    <h1>Add job</h1>
+        <!-- form need to add elements : https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form -->
+        <div class="addJob"><form>
+            <!-- drop down selection-->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select patient
+                </button>
+                <!-- will need to code fetch in order to populate this differently-->
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Patient example</a>
+                  <a class="dropdown-item" href="#">Patient example</a>
+                  <a class="dropdown-item" href="#">Patient example</a>
+                </div>
+              </div>
 
 
+            <!-- add flex box container-->  
+          
+            <div class="form-group">
+              <label for="formGroupExampleInput">Enter job</label>
+
+              <div class="flex-container2">
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Needs confusion screen bloods">
+              
+           
+              <button type="submit" class="btn btn-primary">Add!</button>
+            </div>
+        </div>
+              <!-- add display to bring up a list of jobs below -->
+          </form>
+        
+        </div>
         <p class="footNote" >DPP project by Megan Gurney 2020  
         </p>
     </body>
