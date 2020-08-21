@@ -5,3 +5,9 @@ Let's think about what kind of functions I will need:
  */
 $('.alert').alert()
 
+
+$('.toast').toast({
+    'autohide': false
+  });
+
+  $('.toast').toast('show');
