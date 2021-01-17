@@ -99,12 +99,14 @@ h1 {
 {
     background-color: lightgreen;
     color: black;
+    padding: 1em;
 }
 
 .cardBody3
 {
     background-color: peachpuff;
     color: black;
+    padding: 1em;
 }
 
 /* The snackbar - position it at the bottom and in the middle of the screen */
