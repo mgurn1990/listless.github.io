@@ -88,7 +88,23 @@ h1 {
     justify-content: center;
 }
 
+.cardBody1
+{
+    background-color: red;  
+    color: black;
+}
 
+.cardBody2
+{
+    background-color: green;
+    color: black;
+}
+
+.cardBody3
+{
+    background-color: orange;
+    color: black;
+}
 
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #toast {
